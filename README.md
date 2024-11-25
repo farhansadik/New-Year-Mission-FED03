@@ -5,10 +5,11 @@
 
 
 **Goal:**
-- [ ] Finish the full design from figma.
-- [ ] Make it responsive for **smaller** and **large** display.
+- [ ] Finish header section.
+- [ ] Finish middle/main section.
+- [ ] Finish footer section.
 
-**Issue:**
+**Issues:**
  
 
 **Live View** <br>
