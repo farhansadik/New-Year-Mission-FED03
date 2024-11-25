@@ -16,7 +16,6 @@
 }
 
 /* header section */
-
 header {
     margin: 50px 140px 0px 140px;
 }
@@ -136,5 +135,77 @@ header {
     color: var(--third-color);
     background-color: var(--primary-color);
     margin-top: 64px;
-    margin-bottom: 110px;
+}
+
+/* main section */
+main {
+    margin: 120px 140px 120px 140px;
+}
+
+/* section 1 */
+.main_section_one {
+    display: flex;
+}
+
+.m_s_one_d_one {
+    width: 80%;
+}
+#msodo_txt1 {
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 120px;
+} 
+#msodo_txt2 {
+    color: var(--secondary-color);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+#msodo_txt3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.m_s_one_d_two {
+    margin-left: 70px;
+    margin-right: 80px;
+}
+.circle {
+    width: 460px;
+    height: 460px;
+    border-radius: 100%;
+    border: 15px solid var(--primary-color);
+}
+.circle > div {
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+    border-radius: 100%;
+    background-image: url(/images/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.m_s_one_d_three {
+    /* not used */
+    padding-left: 40px;
+}
+#msodt_txt1 {
+    color: var(--primary-color);    
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 110px;
+    margin-bottom: 15px;
+}
+#msodt_txt2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+#msodt_img {
+    margin-top: 12px;
 }
