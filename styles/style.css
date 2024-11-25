@@ -1,0 +1,53 @@
+/* Inter Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Merriweather Font */
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* universal property */
+:root {
+    --primary-color: #F00;
+    --secondary-color: #070211;
+    --third-color: #FFF;
+}
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+
+/* header section */
+
+header {
+    border: 5px solid red;
+    margin: 50px 140px 0px 140px;
+}
+
+/* header section - one */
+.header_section_one {
+    border-radius: 16px;
+    height: 600px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hso_text_one {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#hso_text_one, #hso_text_two  {
+    text-align: center;
+    color: var(--third-color);
+    font-family: Merriweather;
+}
+
+#hso_text_two {
+    margin-top: 5px;
+    font-size: 72px;
+}
+
+/* header section - two */
