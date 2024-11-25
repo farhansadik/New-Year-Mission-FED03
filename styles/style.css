@@ -216,7 +216,6 @@ main {
     flex-direction: column;
     align-items: center;
     margin-top: 120px;
-    border: 2px solid brown;
 }
 #mst_txt1 {
     color: var(--secondary-color);
@@ -247,7 +246,6 @@ main {
 /* main section 4 */
 .main_section_four {
     margin-top: 120px;
-    border: 2px solid brown;
 }
 #msf_txt1 {
     color: var(--primary-color);
@@ -285,8 +283,6 @@ main {
     margin-top: 120px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-
-    border: 2px solid red;
 }
 #msfive_txt {
     color: var(--secondary-color);
@@ -304,6 +300,7 @@ main {
 .msfive_div {
     display: flex;
     gap: 0px;
+    margin-top: 48px;
     margin-bottom: 80px;
 }
 .msfive_div > input {
@@ -327,3 +324,5 @@ main {
     font-size: 20px;
     font-weight: 600;
 }
+
+/* footer section */
