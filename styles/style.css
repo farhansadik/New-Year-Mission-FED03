@@ -245,7 +245,7 @@ main {
 
 /* main section 3 column */
 .ms3_column {
-    height: 430px;
+    height: 433px;
     display: flex;
     justify-content: space-between;
 }
@@ -259,8 +259,7 @@ main {
 
 /* main section 3 right column */
 .ms3_sub_column2 {
-    height: inherit;
-    width: 430px;
+    width: 429px;
 }
 .div_img_2 {
     /* not used */
