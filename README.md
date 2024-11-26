@@ -6,7 +6,7 @@
 
 **Goal:**
 - [x] Finish header section.
-- [ ] Finish middle/main section.
+- [x] Finish middle/main section.
 - [x] Finish footer section.
 
 **Live View** <br>
@@ -17,15 +17,14 @@
  Example: 
  ![](images/issues/1.PNG)
 
- 2. **How to create Circle**
+ 2. **Working with circle**
 
- HTML:
+Solution:
  ```html
  <div class="circle">
     <div class="inner"></div>
 </div>
  ```
- CSS:
  ```css
  .circle {
     height: 200px;
@@ -45,4 +44,38 @@
     background-color: blue;
     border-radius: 50%;
 }
+ ```
+ 3. **Positioning** <br>
+ Example:
+ ![](images/issues/2.PNG)
+
+ Solution:
+  ```css
+.section {
+    width: 500px;
+    border: 2px solid white;
+}
+.relative {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    font-size: 30px;
+    position: relative;
+    left: 50%;
+}
+.absolute{
+    border: 2px solid white;
+    font-size: 30px;
+    width: fit-content;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+
+}
+ ```
+ ```html
+<section class="section">
+    <div class="relative">Relative</div>
+    <div class="absolute">Absolute</div>
+</section>
  ```

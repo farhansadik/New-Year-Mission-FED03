@@ -18,7 +18,6 @@
 /* header section */
 header {
     margin: 50px 140px 0px 140px;
-    display: none;
 }
 
 /* header section - one */
@@ -141,7 +140,6 @@ header {
 /* main section */
 main {
     margin: 120px 140px 120px 140px;
-    display: none;
 }
 
 /* main section 1 */
@@ -242,7 +240,42 @@ main {
 
 /* main section 3 */
 .main_section_three {
-    /* left to do letter */
+    margin-top: 65px;
+}
+
+/* main section 3 column */
+.ms3_column {
+    height: 430px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main section 3 left column */
+#ms3_left_img {
+    position: relative;
+    top: 230px;
+    left: 150px;
+}
+
+/* main section 3 right column */
+.ms3_sub_column2 {
+    height: inherit;
+    width: 430px;
+}
+.div_img_2 {
+    /* not used */
+}
+.div_img_1 {
+    position: relative;
+    top: -350px;
+    right: 150px;
+}
+
+/* main section 3 bottom row */
+.ms3_row {
+    background-color: #F00;
+    height: 230px;
+    border-radius: 16px 0px 16px 16px;
 }
 
 /* main section 4 */
@@ -334,17 +367,14 @@ footer {
     padding: 120px 140px 120px 140px;
     font-size: 24px;
     font-weight: 500;
+
 }
 
 /* footer section 1 */
 .footer1 {
-    border: 2px solid red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.footer1_right {
-    border: 2px solid burlywood;  
 }
 #footer1_right_raw {
     display: flex;
