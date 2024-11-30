@@ -17,6 +17,11 @@
  Example: 
  ![](images/issues/1.PNG)
 
+Solution:
+```css
+background-size: 100% 100%;
+background-repeat: no-repeat;
+```
  2. **Working with circle**
 
 Solution:
@@ -79,3 +84,5 @@ Solution:
     <div class="absolute">Absolute</div>
 </section>
  ```
+
+Farhan Sadik

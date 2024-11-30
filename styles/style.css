@@ -25,6 +25,7 @@ header {
     border-radius: 16px;
     height: 600px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/images/Banner\ Image.png);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -75,7 +76,7 @@ header {
     border-radius: 16px;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/images/Vectorrr.png);
     background-repeat: no-repeat;
-
+    background-size: 100% 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -366,7 +367,6 @@ footer {
     padding: 120px 140px 120px 140px;
     font-size: 24px;
     font-weight: 500;
-
 }
 
 /* footer section 1 */
@@ -387,9 +387,10 @@ footer {
 
 /* footer section 2 */
 .horizontal_line {
-    height: 1px;
+    height: 2px;
     background: rgba(255, 255, 255, 0.15);
-    margin: 50px 0px; 
+    margin-top: 50px 0px; 
+    border: 0px;
 }
 #footer2_images {
     display: flex;
